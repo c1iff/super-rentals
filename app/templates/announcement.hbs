@@ -1,0 +1,12 @@
+Important announcements:
+
+<ul>
+  {{#each model as |announcement|}}
+    {{announcement-tile announcement=announcement}}
+  {{/each}}
+</ul>
+
+{{announcement-new announcementFormShow="announcementFormShow" saveAnnouncement="saveAnnouncement"}}
+
+{{#link-to 'about'}}About{{/link-to}}
+{{#link-to 'index'}}Home{{/link-to}}
