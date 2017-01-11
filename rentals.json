@@ -28,5 +28,15 @@
     }, {
     "date" : "Janurary 7th, 2017",
     "text" : "This is a third announcement"
-    } ]
+    } ],
+    
+  "reviews": [{
+    "author": "Andrea",
+    "rating": 4,
+    "content": "Did not fall down."
+  }, {
+    "author": "Alex",
+    "rating": 9,
+    "content": "Nice view of the volcano!"
+  }]
 }
